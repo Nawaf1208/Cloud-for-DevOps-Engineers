@@ -29,3 +29,81 @@ $\color{green}{\text{Answer}}$
 3. High availability: resources and applications provide seamless experience, even when some services are down.
 
 </details>
+
+<details>
+<summary><b><i>3.True or False? Cloud computing is a consumption-based model (users only pay for for resources they use)</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+True
+
+</details>
+
+<details>
+<summary><b><i>4.What types of Cloud Computing services are there?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+IAAS - Infrastructure as a Service 
+
+PAAS - Platform as a Service 
+
+SAAS - Software as a Service
+
+</details>
+
+<details>
+<summary><b><i>5.Explain each of the following and give an example:
+- IAAS
+- PAAS
+- SAAS
+</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- IAAS - Users have control over complete Operating System and don't need to worry about the physical resources, which is managed by Cloud Service Provider.
+
+- PAAS - CLoud Service Provider takes care of Operating System, Middlewares and users only need to focus on our Data and Application.
+
+- SAAS - A cloud based method to provide software to users, software logics running on cloud, can be run on-premises or managed by Cloud Service Provider.
+
+</details>
+
+<details>
+<summary><b><i>6.What types of clouds (or cloud deployments) are there?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- Public - Cloud services sharing computing resources among multiple customers
+
+- Private - Cloud services having computing resources limited to specific customer or organization, managed by third party or organizations itself
+
+- Hybrid - Combination of public and private clouds
+
+</details>
+
+<details>
+<summary><b><i>7.What are the differences between Cloud Providers and On-Premise solution?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+In cloud providers, someone else owns and manages the hardware, hire the relevant infrastructure teams and pays for real-estate (for both hardware and people). You can focus on your business.
+
+In On-Premise solution, it's quite the opposite. You need to take care of hardware, infrastructure teams and pay for everything which can be quite expensive. On the other hand it's tailored to your needs.
+
+</details>
+
+<details>
+<summary><b><i>8.What is Serverless Computing?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+The main idea behind serverless computing is that you don't need to manage the creation and configuration of server. All you need to focus on is splitting your app into multiple functions which will be triggered by some actions.
+
+It's important to note that:
+
+  - Serverless Computing is still using servers. So saying there are no servers in serverless computing is completely wrong
+    
+  - Serverless Computing allows you to have a different paying model. You basically pay only when your functions are running and not when the VM or containers are running as in other payment models
+
+</details>
