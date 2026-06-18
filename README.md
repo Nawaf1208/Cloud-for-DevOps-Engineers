@@ -107,3 +107,69 @@ It's important to note that:
   - Serverless Computing allows you to have a different paying model. You basically pay only when your functions are running and not when the VM or containers are running as in other payment models
 
 </details>
+
+<details>
+<summary><b><i>9.Can we replace any type of computing on servers with serverless?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+No. Serverless is great for event-driven, short-lived, and scalable workloads, but some applications need dedicated servers for long-running processes, specialized hardware, low-latency control, or full infrastructure customization.
+
+</details>
+
+<details>
+<summary><b><i>10.Is there a difference between managed service to SaaS or is it the same thing?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Yes, they're different.
+
+Managed Service: Provider manages infrastructure/platform for you, but you still manage and use the application.
+
+SaaS: Provider manages everything, and you simply use the software.
+
+</details>
+
+<details>
+<summary><b><i>11.What is auto scaling?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
+
+</details>
+
+<details>
+<summary><b><i>12.What is the difference between horizontal scaling and vertical scaling?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A "horizontally scalable" system is one that can increase capacity by adding more computers to the system. This is in contrast to a "vertically scalable" system, which is constrained to running its processes on only one computer; in such systems the only way to increase performance is to add more resources into one computer in the form of faster (or more) CPUs, memory or storage.
+
+Horizontally scalable systems are oftentimes able to outperform vertically scalable systems by enabling parallel execution of workloads and distributing those across many different computers.
+
+</details>
+
+<details>
+<summary><b><i>13.True or False? Auto Scaling is about adding resources (such as instances) and not about removing resource.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+False. Auto scaling adjusts capacity and this can mean removing some resources based on usage and performances.
+
+</details>
+
+## Security
+
+<details>
+<summary><b><i>14.How to secure instances in the cloud?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- Instance should have minimal permissions needed. You don't want an instance-level incident to become an account-level incident
+
+- Instances should be accessed through load balancers or bastion hosts. In other words, they should be off the internet (in a private subnet behind a NAT).
+
+- Using latest OS images with your instances (or at least apply latest patches)
+
+</details>
