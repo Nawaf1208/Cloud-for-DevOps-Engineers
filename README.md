@@ -159,7 +159,7 @@ False. Auto scaling adjusts capacity and this can mean removing some resources b
 
 </details>
 
-## Security
+## Cloud Security
 
 <details>
 <summary><b><i>14.How to secure instances in the cloud?</i></b></summary>
